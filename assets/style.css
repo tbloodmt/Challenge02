@@ -1,12 +1,57 @@
+* {
+margin: 0%;
+padding: 0%;
+}
+
 body {
     font-size: large;
     margin:0;
     padding:0;
     box-sizing: border-box;
+    
 }
+
+header{
+height: 300px;
+background-color: gray;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+
+.head {
+    background-color: red;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    
+}
+
+nav{
+    line-height: 40px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.navigation a{
+    color:black;
+    text-decoration-thickness: 3px ;
+}
+ img{
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
 
 footer {
 background-color: brown;
 padding: 2rem;
 
 }
+
+@media (min-width)
