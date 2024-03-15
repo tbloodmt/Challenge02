@@ -1,46 +1,47 @@
 * {
-margin: 0%;
-padding: 0%;
+    margin: 0%;
+    padding: 0%;
 }
 
 body {
     font-size: large;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    
+
 }
 
-header{
-height: 300px;
-background-color: gray;
-display: flex;
-flex-wrap: wrap;
-flex-direction: column;
-align-items: center;
-justify-content: space-between;
+header {
+    height: 300px;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .head {
     background-color: red;
     width: 100%;
-    display:flex;
+    display: flex;
     justify-content: center;
-    
+
 }
 
-nav{
+nav {
     line-height: 40px;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
 
 }
 
-.navigation a{
-    color:black;
-    text-decoration-thickness: 3px ;
+.navigation a {
+    color: black;
+    text-decoration-thickness: 3px;
 }
- img{
+
+img {
 
     height: 100px;
     width: 100px;
@@ -48,13 +49,14 @@ nav{
 }
 
 
-footer {
-background-color: red;
-padding: 2rem;
 
+
+footer {
+    background-color: red;
+    padding: 2rem;
 }
 
-.about-me{
+.about-me {
     display: flex;
     flex-wrap: wrap;
     background-color: gray;
@@ -64,7 +66,7 @@ padding: 2rem;
 
 }
 
-.title1{
+.title1 {
     margin-top: 25px;
     background-color: red;
     width: 100%;
@@ -72,10 +74,46 @@ padding: 2rem;
     justify-content: center;
 }
 
-.bio{
+.bio {
     text-align: center;
     line-height: 30px;
     font-size: x-large;
 }
+
+.resume {
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.work{
+    font-size: x-large;
+    text-align: center;
+    line-height: 30px;
+}
+
+.link{
+    margin-bottom: 50px;
+    font-size: x-large;
+}
+
+.link a{
+    color: blue;
+}
+
+.title2 {
+    background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
 
 @media (min-width)
