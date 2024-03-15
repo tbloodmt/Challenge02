@@ -54,4 +54,28 @@ padding: 2rem;
 
 }
 
+.about-me{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gray;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title1{
+    margin-top: 25px;
+    background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bio{
+    text-align: center;
+    line-height: 30px;
+    font-size: x-large;
+}
+
 @media (min-width)
