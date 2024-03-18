@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    height: 300px;
+    height: 500px;
     background-color: gray;
     display: flex;
     flex-wrap: wrap;
@@ -43,8 +43,8 @@ nav {
 
 img {
 
-    height: 100px;
-    width: 100px;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
 }
 
@@ -78,10 +78,11 @@ footer {
     text-align: center;
     line-height: 30px;
     font-size: x-large;
+    margin-bottom: px;
 }
 
 .resume {
-    height: 250px;
+    height: 400px;
     display: flex;
     flex-wrap: wrap;
     background-color: grey;
@@ -90,19 +91,30 @@ footer {
 
 }
 
-.work{
+.work {
     font-size: x-large;
     text-align: center;
     line-height: 30px;
+    margin-top: 20px;
 }
 
-.link{
+.link {
+    
+    width: 100%;
     margin-bottom: 50px;
     font-size: x-large;
+    display: flex;
+    justify-content: center;
 }
 
-.link a{
-    color: blue;
+.link a {
+    background-image: url(./philly.jpg);
+    width: 700px;
+    height: 175px;
+    color: none;
+    text-decoration: none;
+    margin-top: 30px;
+    
 }
 
 .title2 {
@@ -113,7 +125,22 @@ footer {
 
 }
 
+.contact-info {
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
+}
 
+.title3 {
+    background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
-@media (min-width)
+.reach {
+    font-size: x-large;
+    line-height: 30px;
+}
